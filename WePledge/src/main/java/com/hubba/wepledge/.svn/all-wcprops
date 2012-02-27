@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/hubba/!svn/ver/1349/trunk/WePledge/src/main/java/com/hubba/wepledge
+END
+DashboardController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/hubba/!svn/ver/1327/trunk/WePledge/src/main/java/com/hubba/wepledge/DashboardController.java
+END
+MessageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/hubba/!svn/ver/1337/trunk/WePledge/src/main/java/com/hubba/wepledge/MessageService.java
+END
+HomeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/hubba/!svn/ver/1339/trunk/WePledge/src/main/java/com/hubba/wepledge/HomeController.java
+END
+UserManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/hubba/!svn/ver/1337/trunk/WePledge/src/main/java/com/hubba/wepledge/UserManagementService.java
+END
+PledgesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/hubba/!svn/ver/1349/trunk/WePledge/src/main/java/com/hubba/wepledge/PledgesController.java
+END
+AdminConsoleController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/hubba/!svn/ver/1339/trunk/WePledge/src/main/java/com/hubba/wepledge/AdminConsoleController.java
+END
+EmailSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/hubba/!svn/ver/1332/trunk/WePledge/src/main/java/com/hubba/wepledge/EmailSender.java
+END

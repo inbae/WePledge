@@ -1,0 +1,44 @@
+CREATE DATABASE we_pledge;
+
+##############################################################################################
+
+USE we_pledge;
+
+drop table if exists pledge_history;
+drop table if exists campaign;
+drop table if exists user;
+
+
+
+#                           campaign 1 ---------> * pledge_history
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS user (
+id BIGINT NOT NULL AUTO_INCREMENT,
+email VARCHAR(255) NOT NULL,
+password VARCHAR(255) NOT NULL,
+PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS campaign (
+id BIGINT NOT NULL AUTO_INCREMENT,
+name VARCHAR(255) NOT NULL,
+donor_fullname VARCHAR(255),
+amount double, 
+donation_url VARCHAR(255),
+description TEXT,
+PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS pledge_history (
+id BIGINT NOT NULL AUTO_INCREMENT,
+donor_email VARCHAR(255) NOT NULL,
+date_time datetime,
+latitude double NOT NULL default '0',
+longitude double NOT NULL default '0',
+PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/hubba/!svn/ver/1332/trunk/WePledge/src/main/webapp/WEB-INF/spring/appServlet
+END
+controllers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/hubba/!svn/ver/1306/trunk/WePledge/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml
+END
+servlet-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/hubba/!svn/ver/1332/trunk/WePledge/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+END
+hibernate-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/hubba/!svn/ver/1325/trunk/WePledge/src/main/webapp/WEB-INF/spring/appServlet/hibernate-context.xml
+END

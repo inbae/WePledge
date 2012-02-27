@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:ehcache="http://www.springmodules.org/schema/ehcache"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+ 
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+	
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<!-- <resources mapping="/resources/**" location="/resources/" /> -->
+	<resources mapping="**/*.jpg" location="/" />
+	<resources mapping="**/*.png" location="/" />
+	<resources mapping="**/*.gif" location="/" />
+	<resources mapping="**/*.css" location="/" />
+	<resources mapping="**/*.js" location="/" />
+	<resources mapping="**/*.ico" location="/" />
+	<resources mapping="**/*.swf" location="/" />
+	<resources mapping="**/*.txt" location="/" />
+	<resources mapping="**/*.html" location="/" />
+		
+	
+
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+	</beans:bean>
+	
+    <beans:bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <beans:property name="basenames">
+            <beans:list>
+             <beans:value>email_template</beans:value>
+            </beans:list>
+        </beans:property>
+    </beans:bean>
+    <beans:bean id="messageService" class="com.hubba.wepledge.MessageService">
+    </beans:bean>
+	
+	
+	<!-- Imports user-defined @Controller, @Service beans that process client requests -->
+	<beans:import resource="controllers.xml" />
+	
+</beans:beans>

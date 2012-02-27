@@ -1,0 +1,117 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>We Pledge</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu' rel='stylesheet' type='text/css'>	
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+	
+	<!-- CSS: implied media=all -->
+	<link rel="stylesheet" href="/admin/css/table.css">
+	<link rel="stylesheet" href="/admin/css/fullcalendar.css">
+	<link rel="stylesheet" href="/admin/css/simplemodal.css">
+	<link rel="stylesheet" href="/admin/css/jquery.gritter.css">
+	<link rel="stylesheet" href="/admin/css/jquery.wysiwyg.css">
+	<link rel="stylesheet" href="/admin/css/chosen.css">
+	<link rel="stylesheet" href="/admin/css/jquery-ui-1.8.16.custom.css">
+	<link rel="stylesheet" href="/admin/css/elfinder.min.css">
+    <link rel="stylesheet" href="/admin/css/jqtransform.css">
+    <link rel="stylesheet" href="/admin/css/style.css">
+	<!-- end CSS-->
+	
+    <!-- CSS Media Queries for Standard Devices -->
+    <!--[if !IE]><!-->
+        <link rel="stylesheet" href="/admin/css/devices/smartphone.css" media="only screen and (min-width : 320px) and (max-width : 767px)">
+        <link rel="stylesheet" href="/admin/css/devices/ipad.css" media="only screen and (min-width : 768px) and (max-width : 1024px)"> 
+    <!--<![endif]-->
+    
+	<!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+		
+	<!-- All JavaScript at the bottom, except for Modernizr / Respond.
+	     Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+	     For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="/admin/js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+	<div id="body-container">
+
+		<div id="login-container">
+    		<div id="login" class="i-box">
+			    <div class="login-title"><h1>We Pledge > Login</h1></div>
+				    <form name="login-form" id="login-form" action="/admin/login" method="post">
+						<fieldset>
+						    <section>
+			    			    <input class="i-text required" type="text" name="username" placeholder="Email Address"></input>
+						    </section>
+						    <section>
+			    			    <input class="i-text required" type="password" name="password" placeholder="Password"></input>
+						    </section>
+						    <c:if test="${errors!=null}">
+						    <section>
+			    			    Wrong email/pass
+						    </section>
+						    </c:if>
+						</fieldset>
+						<input class="i-button" type="submit" value="Login" />
+				    </form>
+		    	</div>
+			</div>	
+		</div>
+			
+	</div>
+		 
+	<!-- JavaScript at the bottom for fast page loading -->
+	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/admin/js/mylibs/excanvas.min.js"></script><![endif]-->
+	<script language="javascript" type="text/javascript" src="/admin/js/libs/jquery-1.6.2.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/libs/jquery-ui-1.8.16.custom.min.js"></script>
+	
+	<!-- scripts -->
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/elfinder.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.flot.pie.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.flot.resize.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.flot.stack.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.flot.crosshair.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.dataTables.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.tools.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/fullcalendar.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.gritter.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.simplemodal.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.autogrowtextarea.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.wysiwyg.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/controls/wysiwyg.image.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/controls/wysiwyg.link.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/controls/wysiwyg.table.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.idTabs.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.validate.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/chosen.jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.jqtransform.js"></script>
+    <script language="javascript" type="text/javascript" src="/admin/js/mylibs/jquery.ba-hashchange.min.js"></script>
+    <script defer src="/admin/js/init.js"></script>
+	<script defer src="/admin/js/script.js"></script>
+	<!-- end scripts-->
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+  
+</body>
+</html>

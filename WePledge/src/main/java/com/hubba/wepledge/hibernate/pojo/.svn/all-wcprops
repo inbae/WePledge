@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/hubba/!svn/ver/1349/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo
+END
+Campaign.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/hubba/!svn/ver/1339/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo/Campaign.java
+END
+Pledge_history.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hubba/!svn/ver/1329/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo/Pledge_history.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/hubba/!svn/ver/1337/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo/User.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/hubba/!svn/ver/1337/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo/UserDAO.java
+END
+CampaignDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/hubba/!svn/ver/1349/trunk/WePledge/src/main/java/com/hubba/wepledge/hibernate/pojo/CampaignDAO.java
+END

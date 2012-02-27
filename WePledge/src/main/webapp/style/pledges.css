@@ -1,0 +1,43 @@
+@import "/style/base.css";
+
+#pledge {
+    form {
+
+        .form_fields div {
+            @include body_header;
+            margin:5px 0;
+        }
+
+        .submit {
+            margin-top: 10px;
+            @include light_blue_button;
+        }
+    }
+}
+
+#pledge_full_name,
+#pledge_email,
+#pledge_amount  {
+    padding:1%;
+    width:93%;
+    font-size:14px;
+	@include rounded-corners(5px);
+	border:1px solid #949494;
+	@include linear-gradient(#d5d5d5, #fafafa);
+}
+.submit {
+    border:0;
+}
+
+.input-container {
+	width:90px;
+	margin:0 auto;
+}
+
+#loader {
+    display:none;
+    width:110px;
+    text-align:center;
+    height:20px;
+    padding-top:12px;
+}

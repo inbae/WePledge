@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/hubba/!svn/ver/1347/trunk/WePledge/src/main/webapp/WEB-INF/views/admin
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/hubba/!svn/ver/1335/trunk/WePledge/src/main/webapp/WEB-INF/views/admin/login.jsp
+END
+adminUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/hubba/!svn/ver/1351/trunk/WePledge/src/main/webapp/WEB-INF/views/admin/adminUsers.jsp
+END
+adminCampaigns.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/hubba/!svn/ver/1351/trunk/WePledge/src/main/webapp/WEB-INF/views/admin/adminCampaigns.jsp
+END

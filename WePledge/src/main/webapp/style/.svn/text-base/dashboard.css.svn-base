@@ -1,0 +1,38 @@
+@import "/style/base.css";
+
+.dash {
+    text-align: center;
+    
+    #number_container {
+        margin: 0 auto;
+        display: inline-block;
+        
+        .number {
+            background: url("/images/numberback.png") no-repeat;
+            width: 60px;
+            height: 94px;
+
+            color: white;
+            font-size: 90px;
+            font-weight: bold;
+
+            text-align: center;
+            margin-top:10px;
+            margin-right: 3px;
+            line-height: 0.92;
+
+            float: left;
+        }
+    }
+    .pledges_header {
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 175%;
+    }
+
+    #mapContainer {
+        margin: 0 auto;
+
+        width:90%;
+    }
+}
